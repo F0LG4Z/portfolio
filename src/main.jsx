@@ -14,7 +14,7 @@ import ProjetoVideo from './features/projetos/components/ProjetoVideo.jsx'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Provider store={store}>
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <BrowserRouter basename="/portfolio/">
       <Routes>
         <Route path='/' element={<App />}> 
           <Route index element={<Inicio />} />
