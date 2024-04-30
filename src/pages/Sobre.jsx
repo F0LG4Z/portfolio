@@ -9,13 +9,13 @@ export default function Sobre() {
             <section className="software-list">
                 <h3>softwares</h3>
                 <section className="software">
-                    <img src="/assets/icons/blender.svg" className="icon" /><p>Blender</p>
+                    <img src="assets/icons/blender.svg" className="icon" /><p>Blender</p>
                 </section>
                 <section className="software">
-                    <img src="/assets/icons/solidworks.svg" className="icon" /><p>Solidworks</p>
+                    <img src="assets/icons/solidworks.svg" className="icon" /><p>Solidworks</p>
                 </section>
                 <section className="software">
-                    <img src="/assets/icons/zbrush.svg" className="icon" /><p>Zbrush</p>
+                    <img src="assets/icons/zbrush.svg" className="icon" /><p>Zbrush</p>
                 </section>
             </section>
         </section>
