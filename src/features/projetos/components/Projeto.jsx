@@ -7,7 +7,7 @@ export default function Projeto({id, title, imageUrl, softwares, description, vi
         <>
         <section className="project-card">
             <section>
-                <img src={`/assets/images/${imageUrl}`} alt={title} />
+                <img src={`assets/images/${imageUrl}`} alt={title} />
             </section>
             <section className="card-text">
                 <h1>{title}</h1>
