@@ -6,16 +6,15 @@ import { getProjects } from "../projectSlice";
 
 export default function Projetos(){
     
-    async function getProjects() {
-        const response = await fetch('/data');
-        const data = await response.json();
-        return data;
-      }
-      
-      getProjects().then(data => {
-        data;
-      });
-
+    let dispatch = useDispatch();
+    
+    useEffect(() => {
+        fetch('/data.json')
+        .then(response => response.json())
+        .then(data => dispatch(getProjects(data)))
+        .catch(error => console.log('ocorreu um erro'));
+    }, 
+    []);
 
     const {filteredProjects} = useSelector(state => state.portfolio)
 
