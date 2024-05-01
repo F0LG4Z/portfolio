@@ -9,7 +9,7 @@ export default function Projetos(){
     let dispatch = useDispatch();
     
     useEffect(() => {
-        fetch('data.json')
+        fetch('./data.json')
         .then(response => response.json())
         .then(data => dispatch(getProjects(data)))
         .catch(error => console.log('ocorreu um erro'));
