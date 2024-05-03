@@ -21,7 +21,7 @@ export default function ProjetoVideo(){
             >voltar</button>
             <section className="projeto-video">
                 <video 
-                    src={`/assets/videos/${videoUrl}`}
+                    src={`/portfolio/assets/videos/${videoUrl}`}
                     className="video"
                     autoPlay
                     loop
