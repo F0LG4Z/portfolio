@@ -13,12 +13,15 @@ const projectSlice = createSlice({
             state.filteredProjects = state.projetos
         },
         showBlender: (state, action) => {
+            console.log("Value of e.projetos before filter:", state.projetos); 
             state.filteredProjects = state.projetos.filter( p => p.softwares === 'blender')
         },
         showSolidworks: (state, action) => {
+            console.log("Value of e.projetos before filter:", state.projetos); 
             state.filteredProjects = state.projetos.filter( p => p.softwares === 'solidworks')
         },
         showZbrush: (state, action) => {
+            console.log("Value of e.projetos before filter:", state.projetos); 
             state.filteredProjects = state.projetos.filter( p => p.softwares === 'zbrush')
         },
     }
