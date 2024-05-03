@@ -7,7 +7,7 @@ const projectSlice = createSlice({
     reducers: {
         getProjects: (state, action) => {
             state.projetos = action.payload;
-            state.filteredProjects = action.payload.projetos;
+            state.filteredProjects = action.payload;
         },
         showProjects: (state, action) => {
             state.filteredProjects = state.projetos

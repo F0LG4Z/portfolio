@@ -1,35 +1,35 @@
-{ "projetos": [
+[
     {
-        "id": 0,
-        "title": "nave",
-        "description": "Modelo altamente detalhado da nave Millenium Falcon de Star Wars, para o projeto final da cadeira de Desenho Digital I",
-        "imageUrl":"nave.png",
-        "softwares": "blender",
-        "videoUrl":"nave.mp4"
+      "id": 0,
+      "title": "nave",
+      "description": "Modelo altamente detalhado da nave Millenium Falcon de Star Wars, para o projeto final da cadeira de Desenho Digital I",
+      "imageUrl": "nave.png",
+      "softwares": "blender",
+      "videoUrl": "nave.mp4"
     },
     {
-        "id": 1,
-        "title": "r2d2",
-        "description": "Modelo do robô R2D2 dos filmes de Star Wars criado para a cadeira de Desenho Digital I",
-        "imageUrl": "r2d2.png",
-        "softwares": "blender",
-        "videoUrl":"r2d2.mp4"
+      "id": 1,
+      "title": "r2d2",
+      "description": "Modelo do robô R2D2 dos filmes de Star Wars criado para a cadeira de Desenho Digital I",
+      "imageUrl": "r2d2.png",
+      "softwares": "blender",
+      "videoUrl": "r2d2.mp4"
     },
     {
-        "id": 2,
-        "title": "drive",
-        "description": "Modelo de um disco rígido externo inspirado no jogo Overwatch, para a cadeira de Projeto V. Foram incorporados elementos como formas, cores e símbolos, característicos do universo do jogo",
-        "imageUrl": "drive.png",
-        "softwares": "solidworks",
-        "videoUrl":"drive.mp4"
+      "id": 2,
+      "title": "drive",
+      "description": "Modelo de um disco rígido externo inspirado no jogo Overwatch, para a cadeira de Projeto V. Foram incorporados elementos como formas, cores e símbolos, característicos do universo do jogo",
+      "imageUrl": "drive.png",
+      "softwares": "solidworks",
+      "videoUrl": "drive.mp4"
     },
     {
-        "id": 3,
-        "title": "velho lutador",
-        "description": "Escultura original baseada num conceito de um velho lutador Alentejano para videojogos de luta. A escultura apresenta uma estrutura física altamente desenvolvida, mantendo, contudo, a anatomia correta dos músculos",
-        "imageUrl": "velho.png",
-        "softwares": "zbrush",
-        "videoUrl":"velho.mp4"
+      "id": 3,
+      "title": "velho lutador",
+      "description": "Escultura original baseada num conceito de um velho lutador Alentejano para videojogos de luta. A escultura apresenta uma estrutura física altamente desenvolvida, mantendo, contudo, a anatomia correta dos músculos",
+      "imageUrl": "velho.png",
+      "softwares": "zbrush",
+      "videoUrl": "velho.mp4"
     }
   ]
-}
+  
