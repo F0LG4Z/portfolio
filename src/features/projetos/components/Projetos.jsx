@@ -9,12 +9,21 @@ export default function Projetos(){
     let dispatch = useDispatch();
     
     useEffect(() => {
-        fetch('/portfolio/data.json')
-        .then(response => response.json())
-        .then(data => dispatch(getProjects(data)))
-        .catch(error => console.log('ocorreu um erro'));
-    }, 
-    []);
+        const fetchData = async () => {
+            try {
+              const response = await fetch('/portfolio/data.json');
+              if (!response.ok) {
+                throw new Error('failed to fetch data');
+              }
+              const data = await response.json();
+              dispatch(getProjects(data));
+            } catch (error) {
+              console.error('errro fetching data:', error);
+            }
+          };
+      
+          fetchData();
+        }, [dispatch]);
 
     const {filteredProjects} = useSelector(state => state.portfolio)
 
